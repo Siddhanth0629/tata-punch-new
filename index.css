@@ -409,7 +409,7 @@ canvas {
 /* Gallery Starts */
 .galleryContainer {
     width: 100%;
-    height: 2000vh;
+    height: 300vh;
     position: relative;
 }
 
@@ -421,13 +421,13 @@ canvas {
     height: 100%;
     overflow: hidden;
     background: #000;
-    opacity: 0.35;
+    /* opacity: 0.35; */
     z-index: -1;
 }
 
 .active-slide img {
     position: absolute;
-    filter: blur(50px);
+    filter: blur(20px);
     transform: scale(1.125);
 }
 
