@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   const lenis = new Lenis({
     duration: 1.2, // Adjusts smoothness (higher = smoother)
     smooth: true,
-    wheelMultiplier: 0.8, // Scroll speed
+    wheelMultiplier: 0.4, // Scroll speed
     ease: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Custom easing
   });
 

@@ -269,7 +269,7 @@ img {
 /* Horizontal Scroll Start */
 .space {
     height: 0vh;
-    background: var(--black);
+    /* background: var(--black); */
 }
 
 .section-shared {
@@ -278,7 +278,7 @@ img {
     height: 100vh;
     padding: clamp(var(--size-20), var(--size-8) + 2.2vw, var(--size-80));
     overflow: hidden;
-    background: var(--black);
+    /* background: var(--black); */
 }
 
 .scroll-container {
