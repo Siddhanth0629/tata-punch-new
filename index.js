@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       document.body.style.overflow = "hidden";
     })
     .eventCallback("onComplete", () => {
-      document.body.style.overflow = "";
+      document.body.style.overflowX = "hidden";
     });
   //Landing Page Ends
   ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           scrub: 1,
           pin: true,
           pinSpacing: false,
-          markers: true,
+          // markers: true,
         },
       })
       .to(containerElement, {

@@ -54,18 +54,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: "#canvas-container",
-          // markers: true,
+          markers: true,
           scrub: 2,
           pin: true,
           start: "1% top",
           end: "+=4000px 95%",
           onEnter: () => {
-            console.log("Entering Scroll Trigger...");
             document.querySelector(".overlay").style.position = "fixed";
           },
-          onLeave: () => console.log("Leaving Scroll Trigger..."),
-          onLeaveBack: () => console.log("Scrolling Back..."),
-          onUpdate: (self) => console.log("Progress:", self.progress),
+
           onKill: () => console.log("ScrollTrigger Killed!"), // 🔥 Logs when destroyed
         },
       });
@@ -265,7 +262,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-      cleanUpRenderer(); // 🔥 Ensure old WebGL context is removed
+      // cleanUpRenderer(); // 🔥 Ensure old WebGL context is removed
       renderer.setSize(window.innerWidth, window.innerHeight);
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();

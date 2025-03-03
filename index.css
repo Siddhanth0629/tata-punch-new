@@ -118,6 +118,7 @@ img {
     gap: 1em;
     transform: none;
     will-change: transform;
+
 }
 
 .img.stacked {
@@ -255,6 +256,8 @@ img {
     display: flex;
     transform: translateY(100%);
 }
+
+
 
 .word h1,
 .nav-item p,
@@ -546,3 +549,36 @@ canvas {
 }
 
 /* Gallery Ends */
+
+
+
+@media(max-width:600px) {
+    .site-info h2 {
+        font-size: 20px !important;
+        width: 100vw;
+        padding: 1rem;
+        position: absolute;
+        left: -12%;
+        transform: translateY(-190%);
+    }
+
+    .site-info .row {
+        gap: 0em;
+    }
+
+    .car-color-desc {
+        font-size: 1.3rem !important;
+    }
+
+    .section-shared {
+        height: 450px;
+    }
+
+    .scroll-container {
+        height: 450px;
+    }
+
+    .car-img {
+        object-fit: contain;
+    }
+}

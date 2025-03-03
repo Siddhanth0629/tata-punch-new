@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 
-<body>
+<body style="overflow: hidden;">
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- Hero section start -->
     <div class="container">
@@ -44,7 +44,10 @@
                         </div>
                     </div>
                     <div class="col">
-                        <h2>Presenting Tata PUNCH, the no-compromise SUV. The epitome of class that offers a blend of
+                        <h2>Presenting <span style="font-family: poppins-semibold;">Tata PUNCH</span>, the no-compromise
+                            SUV. The
+                            epitome of class that offers a
+                            blend of
                             sporty dynamics and tough utility.</h2>
                     </div>
                 </div>
@@ -66,9 +69,10 @@
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- Horizontal scroll section start -->
     <section class="section-shared section bg-purple" style="position: relative;">
-        <h1 style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">Tornado Blue with White roof
+        <h1 class="car-color-desc" style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">
+            Tornado Blue with White roof
         </h1>
-        <div class="container" style="position: relative;">
+        <div class="container scroll-container" style="position: relative;">
             <div style="width: 100%;height: 100%;background: #000;opacity: 0.3;position: absolute;left: 0%;z-index: 1;">
             </div>
             <div style="width: 100%;height: 100%;position: relative;">
@@ -76,15 +80,15 @@
                 <div style="height: 100%;width: 50%;background-color: #1864B3;position: absolute;top: 0;right: 0;">
                 </div>
             </div>
-            <img src="./assets/images/feature1.avif" alt="" style="position: absolute;top: 0;">
-            <h1>Page title</h1>
+            <img src="./assets/images/feature1.avif" alt="" style="position: absolute;top: 0;" class="car-img">
         </div>
 
     </section>
     <section class="section-shared section bg-teal" style="position: relative;">
-        <h1 style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">Calypso Red with White roof
+        <h1 class="car-color-desc" style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">
+            Calypso Red with White roof
         </h1>
-        <div class="container" style="position: relative;">
+        <div class="container scroll-container" style="position: relative;">
             <div style="width: 100%;height: 100%;background: #000;opacity: 0.3;position: absolute;left: 0%;z-index: 1;">
             </div>
             <div style="width: 100%;height: 100%;position: relative;">
@@ -92,15 +96,15 @@
                 <div style="height: 100%;width: 50%;background-color: #C32228;position: absolute;top: 0;left: 0;">
                 </div>
             </div>
-            <img src="./assets/images/feature2.avif" alt="" style="position: absolute;top: 0;">
-            <h2>Section title</h2>
+            <img src="./assets/images/feature2.avif" alt="" style="position: absolute;top: 0;" class="car-img">
         </div>
 
     </section>
     <section class="section-shared section bg-yellow" style="position: relative;">
-        <h1 style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">Tropical Mist
+        <h1 class="car-color-desc" style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">
+            Tropical Mist
         </h1>
-        <div class="container">
+        <div class="container scroll-container">
             <div style="width: 100%;height: 100%;background: #000;opacity: 0.3;position: absolute;left: 0%;z-index: 1;">
             </div>
             <div style="width: 100%;height: 100%;position: relative;">
@@ -108,15 +112,16 @@
                 <div style="height: 100%;width: 50%;background-color: #323E4E;position: absolute;top: 0;right: 0;">
                 </div>
             </div>
-            <img src="./assets/images/feature3.avif" alt="" style="position: absolute;top: 0;">
-            <h2>Section title</h2>
+            <img src="./assets/images/feature3.avif" alt="" style="position: absolute;top: 0;" class="car-img">
+
         </div>
 
     </section>
-    <section class="section-shared section bg-blue" style="position: relative;">
-        <h1 style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">Daytona grey
+    <section class="section-shared section bg-blue" style="position: relative;margin-bottom: 2rem;">
+        <h1 class="car-color-desc" style="color: white;font-size: 3rem;position: absolute;bottom: 10%;z-index: 5;">
+            Daytona grey
         </h1>
-        <div class="container" style="position: relative;">
+        <div class="container scroll-container" style="position: relative;">
             <div style="width: 100%;height: 100%;background: #000;opacity: 0.3;position: absolute;left: 0%;z-index: 1;">
             </div>
             <div style="width: 100%;height: 100%;position: relative;">
@@ -124,8 +129,7 @@
                 <div style="height: 100%;width: 50%;background-color: #38393B;position: absolute;top: 0;left: 0;">
                 </div>
             </div>
-            <img src="./assets/images/feature4.avif" alt="" style="position: absolute;top: 0;">
-            <h2>Section title</h2>
+            <img src="./assets/images/feature4.avif" alt="" style="position: absolute;top: 0;" class="car-img">
         </div>
 
     </section>
@@ -134,7 +138,7 @@
     <!-- Horizontal scroll section end -->
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- Canvas Section Start -->
-    <div style="position: relative;">
+    <!-- <div style="position: relative;">
         <div id="canvas-container"></div>
         <div class="overlay" style="position: absolute;top: 0;"></div>
         <div class="section_one" style="position: absolute;top: 0;">
@@ -167,7 +171,7 @@
                 <p>That looks premium and feels stylish.</p>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Canvas Section Ends -->
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -271,8 +275,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/split-type"></script>
     <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42"></script>
+    <!-- <script src="./3d.js"></script> -->
     <script src="./index.js"></script>
-    <script src="./3d.js"></script>
 </body>
 
 </html>
